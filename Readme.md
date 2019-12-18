@@ -11,6 +11,7 @@ This was done with a U-NET model of a Convolutional Neural Network (*CNN*) to le
 The dataset is a mix of patients from Malignant/Benign classifications, across synthethicly generated and genuinely recorded MRI scans, which are 3D images as a 2D + channel format. (1 Patient would have around 200x2D images, across 3 axes)
 <img alt="Overview" src="images/overview.PNG">  
 <sub><b>Figure 1: </b> Slice overview of a patient. </sub> 
+<br>
 The masks are broken into several layers, each per tumor tissue type. These will be binary masks to separate the segmentation N-ways, then combined to form the final segmentation.
 <img alt="Overview" src="images/result1.png">  
 <sub><b>Figure 2: </b> Dataset Breakdown of layers </sub> 
