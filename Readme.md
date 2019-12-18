@@ -14,4 +14,5 @@ The dataset is a mix of patients from Malignant/Benign classifications, across s
 The masks are broken into several layers, each per tumor tissue type. These will be binary masks to separate the segmentation N-ways, then combined to form the final segmentation.
 <img alt="Overview" src="images/result1.png">  
 <sub><b>Figure 2: </b> Dataset Breakdown of layers </sub> 
+<br>
 The model uses the 3D U-NET, which is an equal amount of downsampling, basic bottleneck, into equal amount of upsampling layers.
